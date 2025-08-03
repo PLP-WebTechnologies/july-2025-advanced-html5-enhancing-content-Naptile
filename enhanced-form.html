@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <section>
+
+  <h2>Lists</h2>
+  <ul type="square">
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+  </ul>
+
+  <ol type="1">
+    <li>First</li>
+    <li>Second</li>
+    <li>Third</li>
+  </ol>
+
+  <dl>
+    <dt>Definition List</dt>
+    <dd>This is a description of the definition list.</dd>
+    <dt>Another Term</dt>
+    <dd>This is another description.</dd>
+  </dl>
+  </section>
+
+  <section>>
+
+  <h2>Table</h2>
+  <table border="1" cellpadding="10" cellspacing="0" 
+         style="width: 100%; border-collapse: collapse; 
+          font-family: Arial, sans-serif; text-align: center;">
+    <caption style="font-size: 24px; font-weight: bold; margin-bottom: 10px;">
+      User Information</caption>
+    <colgroup>
+      <col style="width: 20%;">
+      <col style="width: 10%;">
+      <col style="width: 20%;">
+      <col style="width: 20%;">
+      <col style="width: 15%;">
+      <col style="width: 15%;">
+    </colgroup>
+    <thead>
+     <tr>
+      <th>Name</th>
+      <th>Age</th>
+      <th>City</th>
+      <th>Country</th>
+      <th>Occupation</th>
+      <th>Hobby</th>
+     </tr>
+    </thead>
+    <tbody style="background-color: lightgray; color: black; font-size: 16px; 
+                font-family: Arial, sans-serif; text-align: center;
+                ">
+      <tr>
+        <td>John Doe</td>
+        <td>30</td>
+        <td>New York</td>
+        <td>USA</td>
+        <td>Software Engineer</td>
+        <td>Cycling</td>    
+      </tr>
+      <tr>
+        <td>Jane Smith</td>
+        <td>25</td>
+        <td>London</td>
+        <td>UK</td>
+        <td>Graphic Designer</td>
+        <td>Photography</td>
+      </tr>
+      <tr>
+        <td>Emily Johnson</td>
+        <td>35</td>
+        <td>Toronto</td>
+        <td>Canada</td>
+        <td>Data Scientist</td>
+        <td>Reading</td>
+      </tr>
+      <tr>
+        <td>Michael Brown</td>
+        <td>28</td>
+        <td>Sydney</td>
+        <td>Australia</td>
+        <td>Web Developer</td>
+        <td>Traveling</td>  
+      </tr>
+      <tr>
+        <td>Sarah Wilson</td>
+        <td>32</td>
+        <td>Auckland</td>
+        <td>New Zealand</td>
+        <td>Project Manager</td>
+        <td>Cooking</td>
+      </tr>
+      <tr>
+        <td>David Lee</td>
+        <td>40</td>
+        <td>Berlin</td>
+        <td>Germany</td>
+        <td>System Analyst</td>
+        <td>Gaming</td>
+      </tr>
+      <tr>
+        <td>Laura Garcia</td>
+        <td>29</td>
+        <td>Madrid</td>
+        <td>Spain</td>
+        <td>Marketing Specialist</td>
+        <td>Dancing</td>
+      </tr>
+      <tr>
+        <td>Chris Martinez</td>
+        <td>31</td>
+        <td>Mexico City</td>
+        <td>Mexico</td>
+        <td>Network Engineer</td>
+        <td>Fishing</td>
+      </tr>
+      <tr>
+        <td>Olivia Taylor</td>
+        <td>27</td>
+        <td>Paris</td>
+        <td>France</td>
+        <td>Content Writer</td>
+        <td>Hiking</td>
+      </tr>
+      <tr>
+        <td>James Anderson</td>
+        <td>38</td>
+        <td>Tokyo</td>
+        <td>Japan</td>
+        <td>Financial Analyst</td>
+        <td>Yoga</td>
+      </tr>
+      <tr>
+        <td>Emma Thomas</td>
+        <td>26</td>
+        <td>Rome</td>
+        <td>Italy</td>
+        <td>UX Designer</td>
+        <td>Painting</td> 
+      </tr>
+    </tbody>
+
+
+  </table>
+
+  </section>
+
+  <section>
+  <h2>Media</h2>
+  <video controls style="width: 100%; max-width: 600px; display: block; margin: auto;" autoplay muted loop>
+    <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <img src="https://www.w3schools.com/html/img_chania.jpg" alt="Chania" style="width: 100%; max-width: 600px; display: block; margin: auto; margin-top: 10px">
+  <audio controls style="width: 100%; max-width: 600px; display: block; margin: auto; margin-top: 10px;">
+    <source src="https://www.w3schools.com/html/horse.ogg" type="audio/ogg">
+    <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  </section>
+
+  <section>>
+  <h2>Form</h2>
+  <form action="https://formsubmit.co/naptilepeterson71@gmail.com" method="post" style="max-width: 600px; margin: auto;">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" required style="width: 100%; padding: 8px; margin-bottom: 10px;">
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required style="width: 100%; padding: 8px; margin-bottom: 10px;">
+
+    <label for="age">Age</label>
+    <input type="number" id="age" name="age" min="0" max="120" required style="width: 100%; padding: 8px; margin-bottom: 10px;">
+
+    <label for="country">Country</label>
+    <select id="country" name="country" required style="width: 100%; padding: 8px; margin-bottom: 10px;">
+      <option value="">Select a country</option>
+      <option value="usa">USA</option>
+      <option value="uk">UK</option>
+      <option value="canada">Canada</option>
+      <option value="australia">Australia</option>
+      <option value="germany">Germany</option>
+      <option value="france">France</option>
+      <option value="japan">Japan</option>
+      <option value="italy">Italy</option>
+    </select>
+
+    <label for="comments">Comments</label>
+    <textarea id="comments" name="comments" rows="4" style="width: 100%; padding: 8px; margin-bottom: 10px;"></textarea>
+
+    <button type="submit" style="padding: 10px 15px; background-color: #4CAF50; color: white; border: none; cursor: pointer;">Submit</button>
+  
+    <button type="reset" style="padding: 10px 15px; background-color: #f44336; color: white; border: none; cursor: pointer; margin-left: 10px;">Reset</button>
+  </form>
+  </section>
+</body>
+</html>
